@@ -515,6 +515,14 @@
     position: absolute;
     left: 0px;
     top: 0px;
+    animation-duration: 2.5s;
+    animation-name: RelojAnim;
+    animation-iteration-count: 1;   
+}
+
+@keyframes RelojAnim {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
 }
 
 #line {
@@ -621,6 +629,14 @@
     margin-top: 580px;
     margin-left: 855px;
     transform: rotate(-4deg);
+    animation-duration: 1.25s;
+    animation-name: BolasNavidadAnim;
+    animation-iteration-count: 1; 
+} 
+
+
+@keyframes BolasNavidadAnim {
+    0% {left:0px; top: 80px;}
 }
 
 #BolasNavidad2 {
@@ -633,6 +649,9 @@
     margin-top: 320px;
     margin-left: 1510px;
     transform: rotate(87deg);
+    animation-duration: 1.25s;
+    animation-name: BolasNavidadAnim;
+    animation-iteration-count: 1; 
 }
 
 #TextTopStyle2 {
@@ -651,6 +670,14 @@
     width: 1030px;
     margin-top: -50px;
     background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(255, 123, 123)); 
+    animation-duration: 1.25s;
+    animation-name: BackgroundStyleAnim;
+    animation-iteration-count: 1;  
+} 
+
+@keyframes BackgroundStyleAnim {
+    0% {width: 4px; height: 120px;}
+    100% {width: 1030px;height: 62px;}
 }
 
 #TextTopStyle4 {
