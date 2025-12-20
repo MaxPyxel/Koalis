@@ -1,0 +1,829 @@
+
+#ContenidoArriba {
+    background-color: rgb(82, 63, 55);
+    margin-top: -10px;
+    width: auto;
+    margin-left: -8px;
+    margin-right: -8px;
+    height: 175px;
+    background-image: url(images/woodsbackground.jpg);
+    box-shadow: 0 0 20px gray;
+}
+
+#TEXTSTYLETYTLE {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-family: "Asset", sans-serif;
+    background-color: rgb(104, 80, 70);
+    text-shadow: 8px 4px 0px rgb(58, 45, 39);
+    animation-name: AnimTextTytle;
+    animation-duration: 1.5s;
+    margin: 0 auto;
+    box-shadow: 0 0 20px black;
+    border: 5px solid rgb(153, 120, 105);
+    border-radius: 201px;
+    margin-top: -14px;
+}
+
+@keyframes AnimTextTytle {
+  0%   {background-color: rgb(255, 255, 255); width: 600px; border-radius: 0px; box-shadow: 0 0 90px white;}
+  100% {background-color: rgb(104, 80, 70); width: auto; border-radius: 201px; width: 1915px; box-shadow: 0 0 20px black;}
+}
+
+#ButtonTextTytle {
+    color: white;
+    font-family: "Black Ops One", sans-serif;
+    margin-left: 50px;
+    font-size: 12px;
+    background-color: rgb(104, 80, 70);
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+    border: 2px dashed rgb(172, 139, 124);
+    outline: 5px solid rgb(104, 80, 70);
+    text-shadow: 8px 4px 2px rgb(58, 45, 39);
+    border-radius: 9px;
+    box-shadow: 18px 10px 6px rgb(58, 45, 39);
+    cursor: pointer;
+    transition: 0.3s, border-color 1s;
+}
+
+#ButtonTextTytle:hover {
+    border-color: white;
+    outline: 5px solid rgb(233, 188, 167);
+    background-color: rgb(153, 120, 105);
+}
+
+#LineStyleTytle {
+    border: 3px solid rgb(153, 120, 105);
+    width: auto;
+    margin-top: -6px;
+    box-shadow: 0 0 20px black;
+}
+
+#TextButtonWHITE {
+    color: white;
+}
+
+
+#iconrelogstyle {   
+    animation-name: iconRelojAnim;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    width: 40px;
+    height: 40px;
+}
+
+@keyframes iconRelojAnim {
+    0% {transform: rotate(100deg);}
+    10% {transform: rotate(0deg);}
+    50% {transform: rotate(-160deg);}
+    80% {transform: rotate(360deg);}
+    100% {transform: rotate(100deg);}
+}
+
+#iconrelogstyle2 {   
+    animation-name: iconRelojAnim2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    width: 40px;
+    height: 40px;
+}
+
+@keyframes iconRelojAnim2 {
+    0% {transform: rotate(170deg);}
+    30% {transform: rotate(-91deg);}
+    65% {transform: rotate(160deg);}
+    85% {transform: rotate(560deg);}
+    100% {transform: rotate(170deg);}
+}
+
+#ContenidoArriba {
+    background-color: rgb(82, 63, 55);
+    margin-top: -10px;
+    width: auto;
+    margin-left: -8px;
+    margin-right: -8px;
+    height: 175px;
+    background-image: url(images/woodsbackground.jpg);
+    box-shadow: 0 0 20px gray;
+}
+
+#TEXTSTYLETYTLE {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-family: "Asset", sans-serif;
+    background-color: rgb(104, 80, 70);
+    text-shadow: 8px 4px 0px rgb(58, 45, 39);
+    animation-name: AnimTextTytle;
+    animation-duration: 1.5s;
+    margin: 0 auto;
+    box-shadow: 0 0 20px black;
+    border: 5px solid rgb(153, 120, 105);
+    border-radius: 201px;
+    margin-top: -14px;
+}
+
+@keyframes AnimTextTytle {
+  0%   {background-color: rgb(255, 255, 255); width: 600px; border-radius: 0px; box-shadow: 0 0 90px white;}
+  100% {background-color: rgb(104, 80, 70); width: auto; border-radius: 201px; width: 1915px; box-shadow: 0 0 20px black;}
+}
+
+#ButtonTextTytle {
+    color: white;
+    font-family: "Black Ops One", sans-serif;
+    margin-left: 50px;
+    font-size: 12px;
+    background-color: rgb(104, 80, 70);
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+    border: 2px dashed rgb(172, 139, 124);
+    outline: 5px solid rgb(104, 80, 70);
+    text-shadow: 8px 4px 2px rgb(58, 45, 39);
+    border-radius: 9px;
+    box-shadow: 18px 10px 6px rgb(58, 45, 39);
+    cursor: pointer;
+    transition: 0.3s, border-color 1s;
+}
+
+#ButtonTextTytle:hover {
+    border-color: white;
+    outline: 5px solid rgb(233, 188, 167);
+    background-color: rgb(153, 120, 105);
+}
+
+#LineStyleTytle {
+    border: 3px solid rgb(153, 120, 105);
+    width: auto;
+    margin-top: -6px;
+    box-shadow: 0 0 20px black;
+}
+
+#TextButtonWHITE {
+    color: white;
+}
+
+
+#iconrelogstyle {   
+    animation-name: iconRelojAnim;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    width: 40px;
+    height: 40px;
+}
+
+@keyframes iconRelojAnim {
+    0% {transform: rotate(100deg);}
+    10% {transform: rotate(0deg);}
+    50% {transform: rotate(-160deg);}
+    80% {transform: rotate(360deg);}
+    100% {transform: rotate(100deg);}
+}
+
+#iconrelogstyle2 {   
+    animation-name: iconRelojAnim2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    width: 40px;
+    height: 40px;
+}
+
+@keyframes iconRelojAnim2 {
+    0% {transform: rotate(170deg);}
+    30% {transform: rotate(-91deg);}
+    65% {transform: rotate(160deg);}
+    85% {transform: rotate(560deg);}
+    100% {transform: rotate(170deg);}
+}
+
+#iconHome {   
+    animation-name: iconHomeAnim;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    width: 32px;
+    height: 32px;
+    margin-left: 10px;
+}
+
+@keyframes iconHomeAnim {
+    0% {transform: rotate(0deg);}
+    10% {transform: rotate(0deg);}
+    50% {transform: rotate(0deg);}
+    80% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+
+#ButtonTextTytleSecond {
+    color: white;
+    font-family: "Black Ops One", sans-serif;
+    margin-left: 450px;
+    font-size: 12px;
+    background-color: rgb(104, 80, 70);
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    font-size: 30px;
+    margin-top: -73px;
+    border: 2px dashed rgb(172, 139, 124);
+    outline: 5px solid rgb(104, 80, 70);
+    text-shadow: 8px 4px 2px rgb(58, 45, 39);
+    border-radius: 9px;
+    box-shadow: 18px 10px 6px rgb(58, 45, 39);
+    cursor: pointer;
+    transition: 0.3s, border-color 1s;
+    position: relative;
+}
+
+#ButtonTextTytleSecond:hover {
+    border-color: white;
+    outline: 5px solid rgb(233, 188, 167);
+    background-color: rgb(153, 120, 105);
+}
+
+#ButtonTextTytleTres {
+    color: white;
+    font-family: "Black Ops One", sans-serif;
+    margin-left: 850px;
+    font-size: 12px;
+    background-color: rgb(104, 80, 70);
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    font-size: 30px;
+    margin-top: -73px;
+    border: 2px dashed rgb(172, 139, 124);
+    outline: 5px solid rgb(104, 80, 70);
+    text-shadow: 8px 4px 2px rgb(58, 45, 39);
+    border-radius: 9px;
+    box-shadow: 18px 10px 6px rgb(58, 45, 39);
+    cursor: pointer;
+    transition: 0.3s, border-color 1s;
+    position: relative;
+}
+
+#ButtonTextTytleTres:hover {
+    border-color: white;
+    outline: 5px solid rgb(233, 188, 167);
+    background-color: rgb(153, 120, 105);
+}
+
+#ButtonSytleGithub {
+    color: white;
+    font-family: "Oooh Baby", sans-serif;
+    margin-left: 1250px;
+    font-size: 12px;
+    background-color: #3d444d;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    font-size: 30px;
+    margin-top: -73px;
+    border: 2px dashed #94a3b6;
+    outline: 5px solid #202429;
+    text-shadow: 8px 4px 2px rgb(58, 45, 39);
+    border-radius: 9px;
+    box-shadow: 18px 10px 6px rgb(58, 45, 39);
+    cursor: pointer;
+    transition: 0.3s, border-color 1s;
+    position: relative;
+    -webkit-text-stroke: 1px white;
+}
+
+#ButtonSytleGithub:hover {
+    border-color: white;
+    outline: 5px solid #b1c2d8;
+    background-color: #94a3b6;
+}
+
+#ButtonSytleInfo {
+    color: white;
+    font-family: "Black Ops One", sans-serif;
+    margin-left: 1650px;
+    font-size: 12px;
+    background-color: rgb(104, 80, 70);
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    font-size: 30px;
+    margin-top: -73px;
+    border: 2px dashed rgb(172, 139, 124);
+    outline: 5px solid rgb(104, 80, 70);
+    text-shadow: 8px 4px 2px rgb(58, 45, 39);
+    border-radius: 9px;
+    box-shadow: 18px 10px 6px rgb(58, 45, 39);
+    cursor: pointer;
+    transition: 0.3s, border-color 1s;
+    position: relative;
+}
+
+#ButtonSytleInfo:hover {
+    border-color: white;
+    outline: 5px solid rgb(233, 188, 167);
+    background-color: rgb(153, 120, 105);
+}
+
+#CreditMax {
+    color: rgb(233, 188, 167);
+    font-family: "Chewy", sans-serif;
+    background-color: rgb(109, 37, 37);
+    box-shadow: 0 0 10px red inset;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#inptName {
+    background-color: rgb(231, 231, 231);
+    border: 0px solid white;
+    width: 755px;
+    height: 50px;
+    border-radius: 5px;
+    border-bottom: 7px solid rgb(163, 163, 163);
+}
+
+
+[name="campo1"]::placeholder {
+    color: rgb(168, 168, 168);
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+[name="campo1"] {
+    color: rgb(37, 37, 37);
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 0 0 4px gray;
+}
+
+#ImgSearch {
+    width: 30px;
+    height: 30px;
+}
+
+#BoxSearchStyle {
+    margin-left: 500px;
+    margin-top: 20px;
+}
+
+#BackgroundColorU {
+    width: 1870px;
+    height: 500px;
+    background-color:#515c68 ;
+    z-index: -5;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    margin-top: 330px;
+    margin-left: 18px;
+    border-bottom: 15px solid #3a4738;
+    background-image: linear-gradient(to bottom, #93a54a, #546851);
+    box-shadow: 0 0 14px gray;
+    border-bottom-right-radius: 75px;
+    border-bottom-left-radius: 75px;
+}
+
+#RelojImgU {
+    height: 650px;
+    align-items: center;
+    margin-left: 1220px;
+    margin-top: 250px;
+    z-index: -2;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    animation-duration: 2.5s;
+    animation-name: RelojAnimU;
+    animation-iteration-count: 1;   
+}
+
+@keyframes RelojAnimU {
+    0% {transform: scale(0.5);}
+    100% {transform: scale(1);}
+}
+
+#lineU {
+    width: 500px;
+    height: 500px;
+    margin-left: 1195px;
+    margin-top: 322px;
+    animation-name: LineAnimU;
+    animation-iteration-count: infinite;
+    animation-duration: 60s;
+    z-index: 3;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+
+#BolasNavidad1U {
+    width: 390px;
+    height: 390px;
+    z-index: 1;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    margin-top: 580px;
+    margin-left: 1055px;
+    animation-duration: 1.25s;
+    animation-name: BolasNavidadAnimU;
+    animation-iteration-count: 1; 
+} 
+
+
+@keyframes BolasNavidadAnimU {
+    0% {left:0px; top: 80px;}
+}
+
+#BolasNavidad2U {
+    width: 400px;
+    height: 420px;
+    z-index: 3;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    margin-top: 520px;
+    margin-left: 1465px;
+    animation-duration: 1.25s;
+    animation-name: BolasNavidadAnimU;
+    animation-iteration-count: 1; 
+}
+
+#TextTopStyle2U {
+    color: white;
+    font-family: "Poiret One", sans-serif;
+    margin-left: 70px;
+    font-size: 50px;
+    margin-top: 170px;  
+}
+
+#TextTopStyle3U {
+    color: rgb(123, 255, 130);
+    font-family: "Asset", "sans-serif";
+    margin-left: 70px;
+    font-size: 50px;
+    width: 1330px;
+    margin-top: -50px;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(40, 54, 37)); 
+    animation-duration: 2.25s;
+    animation-name: BackgroundStyleAnimU;
+    animation-iteration-count: 1;  
+} 
+
+@keyframes BackgroundStyleAnimU {
+    0% {width: 4px; height: 120px;}
+    100% {width: 1330px;height: 62px;}
+}
+
+#TextTopStyle4U {
+    color: white;
+    font-family: "Poiret One", sans-serif;
+    margin-left: 600px;
+    font-size: 50px;
+    margin-top: -105px;  
+}
+
+#LineStyle3U {
+    border: 1px solid white;
+    width: 550px;
+    margin-left: 70px;
+}
+
+#FechaStyleU {
+    color: white;
+    border-radius: 19px;
+    font-family: "Chewy", sans-serif;
+    text-shadow: 0 0 8px rgb(122, 71, 71);
+    font-size: 30px;
+    width: 300px;
+    text-align: center;
+    margin-left: 92px;
+    background-image: linear-gradient(to right, rgb(255, 207, 207), rgb(255, 123, 123)); 
+    animation-name: RelojMiniAnimU;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+
+@keyframes RelojMiniAnimU {
+    0% {transform: rotate(0deg);}
+    25% {transform: rotate(6deg);}
+    50% {transform: rotate(-3deg);}
+    75% {transform: rotate(1deg);}
+    100% {transform: rotate(-0.5deg);}
+}
+
+#SubTextNavidadU {
+    color: rgb(168, 168, 168);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 70px;
+    width: 800px;
+}
+
+#BoxOferta1 {
+    background-color: white;
+    box-shadow: 0 0 18px gray;
+    width: 280px;
+    height: 575px;
+    margin-left: 275px;
+    border: 2px solid rgb(104, 80, 70);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#BoxOferta1:hover {
+    transform: scale(1.04);
+    outline: 8px solid rgb(233, 188, 167);
+}
+
+#ImagePrincipal {
+    margin-left: 40px;
+    align-items: center;
+    margin-top: 15px;
+    width: 200px;
+    box-shadow: 0 0 7px gray;
+    border-radius: 3px;
+}
+
+#NameProducto {
+    color: black;
+    font-family: "Black Ops One", sans-serif;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 13px;
+    margin-top: -10px;
+}
+
+#SubNameProducto {
+    color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -5px;
+    margin-left: 11px;
+    padding: 5px;
+}
+
+#SubNameProducto2 {
+    color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -20px;
+    width: 210px;
+    margin-left: 11px;
+}
+
+#DescuentoStyle {
+    background-color: rgb(173, 57, 57);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 90px;
+    margin-left: 30px;
+    margin-top: -20px;
+    font-size: 20px;
+    border-radius: 3px;
+}
+
+#PrecioStyle {
+    background-color: rgb(236, 236, 236);
+    color: rgb(65, 65, 65);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+    width: 140px;
+    margin-top: -75px;
+    font-size: 40px;
+    border-radius: 9px;
+    box-shadow: 0 0 2px gray;
+}
+
+#AgregarCarritoStyle {
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family: "Stack Sans Headline", sans-serif;
+    margin-left: 20px;
+    text-align: center;
+    width: 240px;
+    height: 70px;
+    margin-top: -25px;
+    font-size: 27px;
+    box-shadow: 0 0 2px gray;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+#gregarCarritoStyle:hover {
+    background-color: white;
+    color: rgb(34, 34, 34);
+}
+
+#TextColorLinkStyle {
+    color: white;
+}
+
+#iconCarrito {
+    width: 33px;
+    height: 33px;
+    background-color: rgb(34, 34, 34);
+}
+
+#SubPrecioStyle {
+    text-decoration: line-through;
+    margin-left: 190px;
+    margin-bottom: -60px;
+    color: rgb(109, 77, 77);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+#LineStyle1 {
+    border: 1px solid rgb(58, 45, 39);
+    width: 1720px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+#TextTopStyle {
+    color: rgb(58, 45, 39);
+    font-family: "Poiret One", sans-serif;
+    margin-left: 30px;
+    font-size: 50px;
+    margin-top: 200px;
+}
+
+#ContenidoFinal {
+    background-color: #202429;
+    width: auto;
+    height: 500px;
+    margin-top: 70px;
+    margin-bottom: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    background-image: linear-gradient(to bottom, #0a0b0c, #2f343b);
+}
+
+#Finaltext1 {
+    color: white;
+    font-size: 30px;
+    font-family: "Asset", sans-serif;
+    text-shadow: 8px 4px 0px rgb(46, 46, 46);
+    margin-left: 270px;
+    text-shadow: 0 0 15px gray;
+}
+
+#aire1 {
+    width: 670px;
+    height: 50px;
+}
+
+#SubTextFinal {
+    color: white;
+    margin-left: 270px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 600px;
+    font-size: 20px;
+}
+
+#LineStyle2 {
+    border: white solid 1px;
+    width: 340px;
+    margin-left: 270px;
+}
+
+#SubTextFinal2 {
+    color:#515c68;
+    margin-left: 270px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 600px;
+    font-size: 20px;
+}
+
+#Finaltext2 {
+    color: white;
+    font-size: 30px;
+    font-family: "Asset", sans-serif;
+    text-shadow: 0 0 15px gray;
+    margin-left: 1000px;
+    margin-top: -245px;
+}
+
+#TextFinal2 {
+    color: white;
+    margin-left: 1000px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 600px;
+    font-size: 20px;
+}
+
+#TextFinal3 {
+    color: white;
+    margin-left: 1000px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 800px;
+    font-size: 20px;
+}
+
+#TextFinal4 {
+    color: white;
+    margin-left: 1000px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 800px;
+    font-size: 20px;
+}
+
+#TextFinal5 {
+    color: white;
+    margin-left: 1000px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 800px;
+    font-size: 20px;
+}
+
+#BoxProductosStyle {
+    box-shadow: 0 0 12px gray;
+    width: 1230px;
+    height: 3100px;
+    margin-left: 390px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#BoxOferta1U {
+    background-color: white;
+    box-shadow: 0 0 8px gray, 0 0 12px rgb(218, 218, 218) inset;
+    width: 280px;
+    height: 575px;
+    border: 1px solid rgb(104, 80, 70);
+    cursor: pointer;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 0.5s, border-radius 2s;
+    margin-left: 45px;
+    margin-top: 80px;
+}
+
+#BoxOferta1U:hover {
+    transform: scale(1.07);
+    outline: 8px solid rgb(82, 82, 82);
+    border-radius: 15px;
+}
+
+#BoxOferta2U {
+    background-color: white;
+    box-shadow: 0 0 8px gray, 0 0 12px rgb(218, 218, 218) inset;
+    width: 280px;
+    height: 575px;
+    border: 1px solid rgb(104, 80, 70);
+    cursor: pointer;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 0.5s, border-radius 2s;
+    margin-left: 470px;
+    margin-top: -577px;
+}
+
+#BoxOferta2U:hover {
+    transform: scale(1.07);
+    outline: 8px solid rgb(82, 82, 82);
+    border-radius: 15px;
+}
+
+#BoxOferta3U {
+    background-color: white;
+    box-shadow: 0 0 8px gray, 0 0 12px rgb(218, 218, 218) inset;
+    width: 280px;
+    height: 575px;
+    border: 1px solid rgb(104, 80, 70);
+    cursor: pointer;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 0.5s, border-radius 2s;
+    margin-left: 880px;
+    margin-top: -575px;
+}
+
+#BoxOferta3U:hover {
+    transform: scale(1.07);
+    outline: 8px solid rgb(82, 82, 82);
+    border-radius: 15px;
+}
+
+#aireProducto {
+    width: 1230px;
+    height: 50px;
+    background-color: rgb(218, 218, 218);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-image: linear-gradient(to left, #cfcfcf, #ffffff);
+}
+
+#TextTopStyleU {
+    color: rgb(94, 94, 94);
+    font-family: "Poiret One", sans-serif;
+    margin-left: 30px;
+    font-size: 50px;
+    -webkit-text-stroke: 1px gray;
+}
+
+#LineStyle4 {
+    margin-top: 25px;
+    border: 1px solid white;
+}

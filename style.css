@@ -344,8 +344,8 @@
     margin-top: -25px;
     font-size: 27px;
     box-shadow: 0 0 2px gray;
-    border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
 }
 
 #gregarCarritoStyle:hover {
@@ -690,7 +690,7 @@
 
 #LineStyle3 {
     border: 1px solid white;
-    width: 550px;
+    width: 551px;
     margin-left: 70px;
 }
 
