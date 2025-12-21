@@ -746,8 +746,8 @@
 #BoxProductosStyle {
     box-shadow: 0 0 12px gray;
     width: 1230px;
-    height: 3100px;
-    margin-left: 390px;
+    height: 2800px;
+    margin-left: 555px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
@@ -820,10 +820,88 @@
     font-family: "Poiret One", sans-serif;
     margin-left: 30px;
     font-size: 50px;
-    -webkit-text-stroke: 1px gray;
+    text-shadow: 6px 1px 5px rgb(175, 175, 175);
 }
 
 #LineStyle4 {
     margin-top: 25px;
     border: 1px solid white;
+}
+
+#BoxProductosStyleIzquierda {
+    box-shadow: 0 0 12px gray;
+    width: 445px;
+    height: 1750px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: white;
+    z-index: -7;
+    margin-left: 20px;
+    margin-top: 1040px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#aireProducto2 {
+    width: 445px;
+    height: 57px;
+    background-color: rgb(218, 218, 218);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-image: linear-gradient(to left, #cfcfcf, #ffffff);
+    margin-top: -170px;
+}
+
+#TextTopStyle2U {
+    color: rgb(94, 94, 94);
+    font-family: "Poiret One", sans-serif;
+    margin-left: 30px;
+    font-size: 50px;
+    text-shadow: 6px 1px 5px rgb(175, 175, 175);
+}
+
+#BoxFiltroStyle {
+    box-shadow: 0 0 5px gray;
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 400px;
+    height: 100px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border: rgb(34, 34, 34) 1px solid;
+    margin-top: 25px;
+    margin-left: 19px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#BoxFiltroStyle2 {
+    box-shadow: 0 0 5px gray;
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 445px;
+    height: 100px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: rgb(34, 34, 34) 1px solid;
+    margin-top: 25px;
+    text-align: center;
+    font-size: 50px;
+    background-image: linear-gradient(to left, #cfcfcf, #ffffff);
+}
+
+#BoxFiltroStyle3 {
+    box-shadow: 0 0 5px gray;
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 200px;
+    height: 100px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border: rgb(34, 34, 34) 1px solid;
+    margin-top: 25px;
+    margin-left: 9px;
+    text-align: center;
+    font-size: 30px;
 }
